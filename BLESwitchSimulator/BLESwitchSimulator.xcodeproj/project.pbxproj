@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D12DFF7D29189E5200A2B33F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DFF7C29189E5200A2B33F /* AppDelegate.swift */; };
+		D12DFF7F29189E5200A2B33F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DFF7E29189E5200A2B33F /* SceneDelegate.swift */; };
+		D12DFF8129189E5200A2B33F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DFF8029189E5200A2B33F /* ViewController.swift */; };
+		D12DFF8429189E5200A2B33F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12DFF8229189E5200A2B33F /* Main.storyboard */; };
+		D12DFF8629189E5600A2B33F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12DFF8529189E5600A2B33F /* Assets.xcassets */; };
+		D12DFF8929189E5600A2B33F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12DFF8729189E5600A2B33F /* LaunchScreen.storyboard */; };
+		D12DFF9429189E5700A2B33F /* BLESwitchSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DFF9329189E5700A2B33F /* BLESwitchSimulatorTests.swift */; };
+		D12DFF9E29189E5700A2B33F /* BLESwitchSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DFF9D29189E5700A2B33F /* BLESwitchSimulatorUITests.swift */; };
+		D12DFFA029189E5700A2B33F /* BLESwitchSimulatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DFF9F29189E5700A2B33F /* BLESwitchSimulatorUITestsLaunchTests.swift */; };
+		D12DFFB029189F1300A2B33F /* CentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DFFAF29189F1300A2B33F /* CentralManager.swift */; };
+		D12DFFB329189F1B00A2B33F /* SwitchPeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DFFB129189F1B00A2B33F /* SwitchPeripheralManager.swift */; };
+		D12DFFB429189F1B00A2B33F /* PeripheralConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DFFB229189F1B00A2B33F /* PeripheralConfigs.swift */; };
+		D12DFFB72918A03E00A2B33F /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DFFB62918A03E00A2B33F /* SwitchViewController.swift */; };
+		D12DFFB92918A06900A2B33F /* RemoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DFFB82918A06900A2B33F /* RemoteViewController.swift */; };
+		D12DFFBC2918AE1C00A2B33F /* CentralConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DFFBB2918AE1C00A2B33F /* CentralConfigs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D12DFF9029189E5700A2B33F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12DFF7129189E5200A2B33F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12DFF7829189E5200A2B33F;
+			remoteInfo = BLESwitchSimulator;
+		};
+		D12DFF9A29189E5700A2B33F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12DFF7129189E5200A2B33F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12DFF7829189E5200A2B33F;
+			remoteInfo = BLESwitchSimulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D12DFF7929189E5200A2B33F /* BLESwitchSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLESwitchSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12DFF7C29189E5200A2B33F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D12DFF7E29189E5200A2B33F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D12DFF8029189E5200A2B33F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D12DFF8329189E5200A2B33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D12DFF8529189E5600A2B33F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D12DFF8829189E5600A2B33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D12DFF8A29189E5600A2B33F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12DFF8F29189E5700A2B33F /* BLESwitchSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLESwitchSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12DFF9329189E5700A2B33F /* BLESwitchSimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLESwitchSimulatorTests.swift; sourceTree = "<group>"; };
+		D12DFF9929189E5700A2B33F /* BLESwitchSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLESwitchSimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12DFF9D29189E5700A2B33F /* BLESwitchSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLESwitchSimulatorUITests.swift; sourceTree = "<group>"; };
+		D12DFF9F29189E5700A2B33F /* BLESwitchSimulatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLESwitchSimulatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D12DFFAF29189F1300A2B33F /* CentralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentralManager.swift; sourceTree = "<group>"; };
+		D12DFFB129189F1B00A2B33F /* SwitchPeripheralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchPeripheralManager.swift; sourceTree = "<group>"; };
+		D12DFFB229189F1B00A2B33F /* PeripheralConfigs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralConfigs.swift; sourceTree = "<group>"; };
+		D12DFFB62918A03E00A2B33F /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		D12DFFB82918A06900A2B33F /* RemoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteViewController.swift; sourceTree = "<group>"; };
+		D12DFFBA2918A27400A2B33F /* BLESwitchSimulator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BLESwitchSimulator.entitlements; sourceTree = "<group>"; };
+		D12DFFBB2918AE1C00A2B33F /* CentralConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralConfigs.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D12DFF7629189E5200A2B33F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12DFF8C29189E5700A2B33F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12DFF9629189E5700A2B33F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D12DFF7029189E5200A2B33F = {
+			isa = PBXGroup;
+			children = (
+				D12DFF7B29189E5200A2B33F /* BLESwitchSimulator */,
+				D12DFF9229189E5700A2B33F /* BLESwitchSimulatorTests */,
+				D12DFF9C29189E5700A2B33F /* BLESwitchSimulatorUITests */,
+				D12DFF7A29189E5200A2B33F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D12DFF7A29189E5200A2B33F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D12DFF7929189E5200A2B33F /* BLESwitchSimulator.app */,
+				D12DFF8F29189E5700A2B33F /* BLESwitchSimulatorTests.xctest */,
+				D12DFF9929189E5700A2B33F /* BLESwitchSimulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D12DFF7B29189E5200A2B33F /* BLESwitchSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				D12DFFBA2918A27400A2B33F /* BLESwitchSimulator.entitlements */,
+				D12DFFAE29189EF600A2B33F /* BLE */,
+				D12DFF7C29189E5200A2B33F /* AppDelegate.swift */,
+				D12DFF7E29189E5200A2B33F /* SceneDelegate.swift */,
+				D12DFF8029189E5200A2B33F /* ViewController.swift */,
+				D12DFF8229189E5200A2B33F /* Main.storyboard */,
+				D12DFF8529189E5600A2B33F /* Assets.xcassets */,
+				D12DFF8729189E5600A2B33F /* LaunchScreen.storyboard */,
+				D12DFF8A29189E5600A2B33F /* Info.plist */,
+				D12DFFB62918A03E00A2B33F /* SwitchViewController.swift */,
+				D12DFFB82918A06900A2B33F /* RemoteViewController.swift */,
+			);
+			path = BLESwitchSimulator;
+			sourceTree = "<group>";
+		};
+		D12DFF9229189E5700A2B33F /* BLESwitchSimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D12DFF9329189E5700A2B33F /* BLESwitchSimulatorTests.swift */,
+			);
+			path = BLESwitchSimulatorTests;
+			sourceTree = "<group>";
+		};
+		D12DFF9C29189E5700A2B33F /* BLESwitchSimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D12DFF9D29189E5700A2B33F /* BLESwitchSimulatorUITests.swift */,
+				D12DFF9F29189E5700A2B33F /* BLESwitchSimulatorUITestsLaunchTests.swift */,
+			);
+			path = BLESwitchSimulatorUITests;
+			sourceTree = "<group>";
+		};
+		D12DFFAE29189EF600A2B33F /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				D12DFFBD2918B05600A2B33F /* Central */,
+				D12DFFB529189F2500A2B33F /* Peripheral */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		D12DFFB529189F2500A2B33F /* Peripheral */ = {
+			isa = PBXGroup;
+			children = (
+				D12DFFB229189F1B00A2B33F /* PeripheralConfigs.swift */,
+				D12DFFB129189F1B00A2B33F /* SwitchPeripheralManager.swift */,
+			);
+			path = Peripheral;
+			sourceTree = "<group>";
+		};
+		D12DFFBD2918B05600A2B33F /* Central */ = {
+			isa = PBXGroup;
+			children = (
+				D12DFFAF29189F1300A2B33F /* CentralManager.swift */,
+				D12DFFBB2918AE1C00A2B33F /* CentralConfigs.swift */,
+			);
+			path = Central;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D12DFF7829189E5200A2B33F /* BLESwitchSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12DFFA329189E5700A2B33F /* Build configuration list for PBXNativeTarget "BLESwitchSimulator" */;
+			buildPhases = (
+				D12DFF7529189E5200A2B33F /* Sources */,
+				D12DFF7629189E5200A2B33F /* Frameworks */,
+				D12DFF7729189E5200A2B33F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLESwitchSimulator;
+			productName = BLESwitchSimulator;
+			productReference = D12DFF7929189E5200A2B33F /* BLESwitchSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D12DFF8E29189E5700A2B33F /* BLESwitchSimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12DFFA629189E5700A2B33F /* Build configuration list for PBXNativeTarget "BLESwitchSimulatorTests" */;
+			buildPhases = (
+				D12DFF8B29189E5700A2B33F /* Sources */,
+				D12DFF8C29189E5700A2B33F /* Frameworks */,
+				D12DFF8D29189E5700A2B33F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12DFF9129189E5700A2B33F /* PBXTargetDependency */,
+			);
+			name = BLESwitchSimulatorTests;
+			productName = BLESwitchSimulatorTests;
+			productReference = D12DFF8F29189E5700A2B33F /* BLESwitchSimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D12DFF9829189E5700A2B33F /* BLESwitchSimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12DFFA929189E5700A2B33F /* Build configuration list for PBXNativeTarget "BLESwitchSimulatorUITests" */;
+			buildPhases = (
+				D12DFF9529189E5700A2B33F /* Sources */,
+				D12DFF9629189E5700A2B33F /* Frameworks */,
+				D12DFF9729189E5700A2B33F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12DFF9B29189E5700A2B33F /* PBXTargetDependency */,
+			);
+			name = BLESwitchSimulatorUITests;
+			productName = BLESwitchSimulatorUITests;
+			productReference = D12DFF9929189E5700A2B33F /* BLESwitchSimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D12DFF7129189E5200A2B33F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D12DFF7829189E5200A2B33F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					D12DFF8E29189E5700A2B33F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D12DFF7829189E5200A2B33F;
+					};
+					D12DFF9829189E5700A2B33F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D12DFF7829189E5200A2B33F;
+					};
+				};
+			};
+			buildConfigurationList = D12DFF7429189E5200A2B33F /* Build configuration list for PBXProject "BLESwitchSimulator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D12DFF7029189E5200A2B33F;
+			productRefGroup = D12DFF7A29189E5200A2B33F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D12DFF7829189E5200A2B33F /* BLESwitchSimulator */,
+				D12DFF8E29189E5700A2B33F /* BLESwitchSimulatorTests */,
+				D12DFF9829189E5700A2B33F /* BLESwitchSimulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D12DFF7729189E5200A2B33F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12DFF8929189E5600A2B33F /* LaunchScreen.storyboard in Resources */,
+				D12DFF8629189E5600A2B33F /* Assets.xcassets in Resources */,
+				D12DFF8429189E5200A2B33F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12DFF8D29189E5700A2B33F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12DFF9729189E5700A2B33F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D12DFF7529189E5200A2B33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12DFFB92918A06900A2B33F /* RemoteViewController.swift in Sources */,
+				D12DFFB329189F1B00A2B33F /* SwitchPeripheralManager.swift in Sources */,
+				D12DFF8129189E5200A2B33F /* ViewController.swift in Sources */,
+				D12DFF7D29189E5200A2B33F /* AppDelegate.swift in Sources */,
+				D12DFFB429189F1B00A2B33F /* PeripheralConfigs.swift in Sources */,
+				D12DFFBC2918AE1C00A2B33F /* CentralConfigs.swift in Sources */,
+				D12DFF7F29189E5200A2B33F /* SceneDelegate.swift in Sources */,
+				D12DFFB029189F1300A2B33F /* CentralManager.swift in Sources */,
+				D12DFFB72918A03E00A2B33F /* SwitchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12DFF8B29189E5700A2B33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12DFF9429189E5700A2B33F /* BLESwitchSimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12DFF9529189E5700A2B33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12DFF9E29189E5700A2B33F /* BLESwitchSimulatorUITests.swift in Sources */,
+				D12DFFA029189E5700A2B33F /* BLESwitchSimulatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D12DFF9129189E5700A2B33F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12DFF7829189E5200A2B33F /* BLESwitchSimulator */;
+			targetProxy = D12DFF9029189E5700A2B33F /* PBXContainerItemProxy */;
+		};
+		D12DFF9B29189E5700A2B33F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12DFF7829189E5200A2B33F /* BLESwitchSimulator */;
+			targetProxy = D12DFF9A29189E5700A2B33F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D12DFF8229189E5200A2B33F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12DFF8329189E5200A2B33F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D12DFF8729189E5600A2B33F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12DFF8829189E5600A2B33F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D12DFFA129189E5700A2B33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D12DFFA229189E5700A2B33F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D12DFFA429189E5700A2B33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BLESwitchSimulator/BLESwitchSimulator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C75B23LSKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BLESwitchSimulator/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "BLE is used";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skr..BLESwitchSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D12DFFA529189E5700A2B33F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BLESwitchSimulator/BLESwitchSimulator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C75B23LSKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BLESwitchSimulator/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "BLE is used";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skr..BLESwitchSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D12DFFA729189E5700A2B33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skr..BLESwitchSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLESwitchSimulator.app/BLESwitchSimulator";
+			};
+			name = Debug;
+		};
+		D12DFFA829189E5700A2B33F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skr..BLESwitchSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLESwitchSimulator.app/BLESwitchSimulator";
+			};
+			name = Release;
+		};
+		D12DFFAA29189E5700A2B33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skr..BLESwitchSimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLESwitchSimulator;
+			};
+			name = Debug;
+		};
+		D12DFFAB29189E5700A2B33F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skr..BLESwitchSimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLESwitchSimulator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D12DFF7429189E5200A2B33F /* Build configuration list for PBXProject "BLESwitchSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12DFFA129189E5700A2B33F /* Debug */,
+				D12DFFA229189E5700A2B33F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12DFFA329189E5700A2B33F /* Build configuration list for PBXNativeTarget "BLESwitchSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12DFFA429189E5700A2B33F /* Debug */,
+				D12DFFA529189E5700A2B33F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12DFFA629189E5700A2B33F /* Build configuration list for PBXNativeTarget "BLESwitchSimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12DFFA729189E5700A2B33F /* Debug */,
+				D12DFFA829189E5700A2B33F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12DFFA929189E5700A2B33F /* Build configuration list for PBXNativeTarget "BLESwitchSimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12DFFAA29189E5700A2B33F /* Debug */,
+				D12DFFAB29189E5700A2B33F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D12DFF7129189E5200A2B33F /* Project object */;
+}
